@@ -1,0 +1,200 @@
+{
+"Start Date":{
+  "field_type":"text",
+  "order":1,
+  "script":"date_time_normalize.py"
+  },
+"Start Time":{
+  "field_type":"text",
+  "order":2,
+  "script":"date_time_normalize.py"
+  },
+"End Date":{
+  "field_type":"text",
+  "order":3,
+  "script":"date_time_normalize.py"
+  },
+"End Time":{
+  "field_type":"text",
+  "order":4,
+  "script":"date_time_normalize.py"
+  },
+"Furnace":{
+  "field_type":"drop_down",
+  "drop_down_options":["Silver", "Steel", "Platinum", "Silicon Carbide", "Rhodium", "Graphite", "Water Vapor", "High Speed", "Tungsten"],
+  "drop_down_standard":"Steel",
+  "order":5
+  },
+"Sensor":{
+  "field_type":"radio",
+  "radio_options":["Standard Sensor", "Precision Sensor"],
+  "order":6
+  },
+"Sample Carrier":{
+  "field_type":"radio",
+  "radio_options":["STA 449", "Standard"],
+  "order":7
+  },
+"Sample ID":{
+  "field_type":"text",
+  "script":"auto_assign_ID.py",
+  "order":8
+  },
+"Sample Name":{
+  "field_type":"text",
+  "order":9
+  },
+"Software Version":{
+  "field_type":"text",
+  "order":10
+  },
+"Firmware Version":{
+  "field_type":"text",
+  "order":11
+  },
+"Sample Crucible":{
+  "field_type":"radio",
+  "radio_options":["Aluminum", "Sealed"],
+  "order":12
+  },
+"Reference Crucible":{
+  "field_type":"radio",
+  "radio_options":["Aluminum", "Sealed"],
+  "order":13
+  },
+"Sample Mass":{
+  "field_type":"numeric",
+  "available_units":["mg", "ug"],
+  "standard_unit":"mg",
+  "script":"convert_units.py",
+  "order":14
+  },
+"Sample Crucible Mass":{
+  "field_type":"numeric",
+  "available_units":["mg", "ug"],
+  "standard_unit":"mg",
+  "script":"convert_units.py",
+  "order":15
+  },
+"Reference Crucible Mass":{
+  "field_type":"numeric",
+  "available_units":["mg", "ug"],
+  "standard_unit":"mg",
+  "script":"convert_units.py",
+  "order":16
+  },
+"Temperature Calibration":{
+  "field_type":"text",
+  "order":17
+  },
+"Date of Last Temperature Calibration":{
+  "field_type":"text",
+  "order":18,
+  "script":"date_time_normalize.py"
+  },
+"Sensitivity Calibration":{
+  "field_type":"text",
+  "order":19
+  },
+"Date of Last Sensitivity Calibration":{
+  "field_type":"text",
+  "order":20,
+  "script":"date_time_normalize.py"
+  },
+"Tau-R Calibration":{
+  "field_type":"text",
+  "order":21
+  },
+"Date of Last Tau-R Calibration":{
+  "field_type":"text",
+  "order":22,
+  "script":"date_time_normalize.py"
+  },
+"Protective Gas":{
+  "field_type":"radio",
+  "radio_options":["N2", "CO2", "He"],
+  "order":23
+  },
+"Protective Gas Grade":{
+  "field_type":"radio",
+  "radio_options":["99.9%", "98%"],
+  "order":24
+  },
+"Procetive Gas Flow Rate":{
+  "field_type":"numeric",
+  "available_units":["mL/min", "L/min", "gal/min"],
+  "standard_unit":"mL/min",
+  "script":"convert_units.py",
+  "order":25
+  },
+"Purge Gas 1":{
+  "field_type":"radio",
+  "radio_options":["N2", "CO2", "He", "O2"],
+  "order":26
+  },
+"Purge Gas 1 Grade":{
+  "field_type":"radio",
+  "radio_options":["99.9%", "98%"],
+  "order":27
+  },
+"Purge Gas 1 Flow Rate":{
+  "field_type":"numeric",
+  "available_units":["mL/min", "L/min", "gal/min"],
+  "standard_unit":"mL/min",
+  "script":"convert_units.py",
+  "order":28
+  },
+"Purge Gas 2":{
+  "field_type":"radio",
+  "radio_options":["N2", "CO2", "He", "O2"],
+  "order":29
+  },
+"Purge Gas 2 Grade":{
+  "field_type":"radio",
+  "radio_options":["99.9%", "98%"],
+  "order":30
+  },
+"Purge Gas 2 Flow Rate":{
+  "field_type":"numeric",
+  "available_units":["mL/min", "L/min", "gal/min"],
+  "standard_unit":"mL/min",
+  "script":"convert_units.py",
+  "order":31
+  },
+"Cooling System":{
+  "field_type":"radio",
+  "radio_options":["li-N2", "Air", "H2O"],
+  "order":32
+  },
+"Preheat Rate":{
+  "field_type":"numeric",
+  "available_units":["K/min"],
+  "standard_unit":"K/min",
+  "script":"convert_units.py",
+  "order":33
+  },
+"Precool Rate":{
+  "field_type":"numeric",
+  "available_units":["K/min"],
+  "standard_unit":"K/min",
+  "script":"convert_units.py",
+  "order":34
+  },
+"Insertion Temperature":{
+  "field_type":"numeric",
+  "available_units":["K", "C", "F"],
+  "standard_unit":"C",
+  "script":"convert_units.py",
+  "order":35
+  },
+"Temperatuere Program":{
+  "field_type":"text",
+  "order":36
+  },
+"Sample Drop Down":{
+  "field_type":"drop_down",
+  "drop_down_options":["Apples","Oranges","Pears"],
+  "drop_down_standard":"Pears",
+  "order":37
+  }
+}

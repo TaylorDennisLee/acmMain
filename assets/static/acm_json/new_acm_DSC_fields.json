@@ -1,0 +1,296 @@
+[
+  {
+    "field_type": "datetime", 
+    "field_name": "Start Date/Time", 
+    "order": 1, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "datetime", 
+    "field_name": "End Date/Time", 
+    "order": 2, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "drop_down", 
+    "drop_down_options": [
+      "Silver", 
+      "Steel", 
+      "Platinum", 
+      "Silicon Carbide", 
+      "Rhodium", 
+      "Graphite", 
+      "Water Vapor", 
+      "High Speed", 
+      "Tungsten"
+    ], 
+    "field_name": "Furnace", 
+    "order": 3, 
+    "drop_down_standard": "Steel"
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "Standard Sensor", 
+      "Precision Sensor"
+    ], 
+    "field_name": "Sensor", 
+    "order": 4
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "STA 449", 
+      "Standard"
+    ], 
+    "field_name": "Sample Carrier", 
+    "order": 5
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Sample ID", 
+    "order": 6, 
+    "script": "auto_assign_ID.py"
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Sample Name", 
+    "order": 7
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Software Version", 
+    "order": 8
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Firmware Version", 
+    "order": 9
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "Aluminum", 
+      "Sealed"
+    ], 
+    "field_name": "Sample Crucible", 
+    "order": 10
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "Aluminum", 
+      "Sealed"
+    ], 
+    "field_name": "Reference Crucible", 
+    "order": 11
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mg", 
+      "ug"
+    ], 
+    "standard_unit": "mg", 
+    "field_name": "Sample Mass", 
+    "order": 12
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mg", 
+      "ug"
+    ], 
+    "standard_unit": "mg", 
+    "field_name": "Sample Crucible Mass", 
+    "order": 13
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mg", 
+      "ug"
+    ], 
+    "standard_unit": "mg", 
+    "field_name": "Reference Crucible Mass", 
+    "order": 14
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Temperature Calibration", 
+    "order": 15
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Date of Last Temperature Calibration", 
+    "order": 16, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Sensitivity Calibration", 
+    "order": 17
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Date of Last Sensitivity Calibration", 
+    "order": 18, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Tau-R Calibration", 
+    "order": 19
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Date of Last Tau-R Calibration", 
+    "order": 20, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "N2", 
+      "CO2", 
+      "He"
+    ], 
+    "field_name": "Protective Gas", 
+    "order": 21
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "99.9%", 
+      "98%"
+    ], 
+    "field_name": "Protective Gas Grade", 
+    "order": 22
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mL/min", 
+      "L/min", 
+      "gal/min"
+    ], 
+    "standard_unit": "mL/min", 
+    "field_name": "Procetive Gas Flow Rate", 
+    "order": 23
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "N2", 
+      "CO2", 
+      "He", 
+      "O2"
+    ], 
+    "field_name": "Purge Gas 1", 
+    "order": 24
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "99.9%", 
+      "98%"
+    ], 
+    "field_name": "Purge Gas 1 Grade", 
+    "order": 25
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mL/min", 
+      "L/min", 
+      "gal/min"
+    ], 
+    "standard_unit": "mL/min", 
+    "field_name": "Purge Gas 1 Flow Rate", 
+    "order": 26
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "N2", 
+      "CO2", 
+      "He", 
+      "O2"
+    ], 
+    "field_name": "Purge Gas 2", 
+    "order": 27
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "99.9%", 
+      "98%"
+    ], 
+    "field_name": "Purge Gas 2 Grade", 
+    "order": 28
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mL/min", 
+      "L/min", 
+      "gal/min"
+    ], 
+    "standard_unit": "mL/min", 
+    "field_name": "Purge Gas 2 Flow Rate", 
+    "order": 29
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "li-N2", 
+      "Air", 
+      "H2O"
+    ], 
+    "field_name": "Cooling System", 
+    "order": 30
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "K/min"
+    ], 
+    "standard_unit": "K/min", 
+    "field_name": "Preheat Rate", 
+    "order": 31
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "K/min"
+    ], 
+    "standard_unit": "K/min", 
+    "field_name": "Precool Rate", 
+    "order": 32
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "K", 
+      "C", 
+      "F"
+    ], 
+    "standard_unit": "C", 
+    "field_name": "Insertion Temperature", 
+    "order": 33
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Temperatuere Program", 
+    "order": 34
+  }
+]

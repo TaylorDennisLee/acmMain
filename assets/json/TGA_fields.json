@@ -1,0 +1,114 @@
+{
+"Start Date":{
+  "field_type":"text",
+  "order":1,
+  "script":"date_time_normalize.py"
+  },
+"Start Time":{
+  "field_type":"text",
+  "order":2,
+  "script":"date_time_normalize.py"
+  },
+"End Date":{
+  "field_type":"text",
+  "order":3,
+  "script":"date_time_normalize.py"
+  },
+"End Time":{
+  "field_type":"text",
+  "order":4,
+  "script":"date_time_normalize.py"
+  },
+"Sample Carrier":{
+  "field_type":"radio",
+  "radio_options":["Platinum", "Copper"],
+  "order":7
+  },
+"Sample ID":{
+  "field_type":"text",
+  "script":"auto_assign_ID.py",
+  "order":8
+  },
+"Sample Name":{
+  "field_type":"text",
+  "order":9
+  },
+"Software Version":{
+  "field_type":"text",
+  "order":10
+  },
+"Firmware Version":{
+  "field_type":"text",
+  "order":11
+  },
+"Sample Mass":{
+  "field_type":"numeric",
+  "available_units":["mg", "ug"],
+  "standard_unit":"mg",
+  "script":"convert_units.py",
+  "order":14
+  },
+"Carrier Mass":{
+  "field_type":"numeric",
+  "available_units":["mg", "ug"],
+  "standard_unit":"mg",
+  "script":"convert_units.py",
+  "order":16
+  },
+"Temperature Calibration":{
+  "field_type":"text",
+  "order":17
+  },
+"Date of Last Temperature Calibration":{
+  "field_type":"text",
+  "order":18,
+  "script":"date_time_normalize.py"
+  },
+"Sensitivity Calibration":{
+  "field_type":"text",
+  "order":19
+  },
+"Date of Last Sensitivity Calibration":{
+  "field_type":"text",
+  "order":20,
+  "script":"date_time_normalize.py"
+  },
+"Temperature Program":{
+  "field_type":"text",
+  "order":21
+  },
+"Gas 1":{
+  "field_type":"radio",
+  "radio_options":["N2", "CO2", "He"],
+  "order":22
+  },
+"Gas 1 Grade":{
+  "field_type":"radio",
+  "radio_options":["99.9%", "98%"],
+  "order":23
+  },
+"Gas 1 Flow Rate":{
+  "field_type":"numeric",
+  "available_units":["mL/min", "L/min", "gal/min"],
+  "standard_unit":"mL/min",
+  "script":"convert_units.py",
+  "order":24
+  },
+"Gas 2":{
+  "field_type":"radio",
+  "radio_options":["N2", "CO2", "He", "O2"],
+  "order":25
+  },
+"Gas 2 Grade":{
+  "field_type":"radio",
+  "radio_options":["99.9%", "98%"],
+  "order":26
+  },
+"Gas 2 Flow Rate":{
+  "field_type":"numeric",
+  "available_units":["mL/min", "L/min", "gal/min"],
+  "standard_unit":"mL/min",
+  "script":"convert_units.py",
+  "order":27
+  }
+}

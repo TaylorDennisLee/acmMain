@@ -1,0 +1,64 @@
+[
+  {
+    "field_type": "text",
+    "field_name": "Start Date",
+    "order": 1,
+    "script": "date_time_normalize.py"
+  },
+  {
+    "field_type": "text",
+    "field_name": "Start Time",
+    "order": 2,
+    "script": "date_time_normalize.py"
+  },
+  {
+    "field_type": "text",
+    "field_name": "End Date",
+    "order": 3,
+    "script": "date_time_normalize.py"
+  },
+  {
+    "field_type": "text",
+    "field_name": "End Time",
+    "order": 4,
+    "script": "date_time_normalize.py"
+  },
+  {
+    "field_name": "Furnace",
+    "field_type": "drop_down",
+    "drop_down_options": [
+      "Silver",
+      "Steel",
+      "Platinum",
+      "Silicon Carbide",
+      "Rhodium",
+      "Graphite",
+      "Water Vapor",
+      "High Speed",
+      "Tungsten"
+    ],
+    "order": 5,
+    "drop_down_standard": "Steel"
+  },
+  {
+    "field_type": "radio",
+    "radio_options": [
+      "Standard Sensor",
+      "Precision Sensor"
+    ],
+    "field_name": "Sensor",
+    "order": 6
+  },
+  {
+    "field_type": "numeric",
+    "script": "convert_units.py",
+    "available_units": [
+      "mL/min",
+      "L/min",
+      "gal/min"
+    ],
+    "standard_unit": "mL/min",
+    "field_name": "Procetive Gas Flow Rate",
+    "order": 25
+  }
+]

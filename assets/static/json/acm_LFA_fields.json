@@ -1,0 +1,85 @@
+[
+  {
+    "field_type": "text", 
+    "field_name": "Start Date", 
+    "order": 1, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Start Time", 
+    "order": 2, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "End Date", 
+    "order": 3, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "End Time", 
+    "order": 4, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "1", 
+      "2", 
+      "3", 
+      "4"
+    ], 
+    "field_name": "Sample Location", 
+    "order": 5
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Sample ID", 
+    "order": 6, 
+    "script": "auto_assign_ID.py"
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Sample Name", 
+    "order": 7
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Software Version", 
+    "order": 8
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Firmware Version", 
+    "order": 9
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mm", 
+      "in"
+    ], 
+    "standard_unit": "mm", 
+    "field_name": "Sample Diameter", 
+    "order": 10
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mm", 
+      "in"
+    ], 
+    "standard_unit": "mm", 
+    "field_name": "Sample Thickness", 
+    "order": 11
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Testing Program", 
+    "order": 12
+  }
+]

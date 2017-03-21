@@ -1,0 +1,156 @@
+[
+  {
+    "field_type": "datetime", 
+    "field_name": "Start Date/Time", 
+    "field_order": 1, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "datetime", 
+    "field_name": "End Date/Time", 
+    "field_order": 2, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "Platinum", 
+      "Copper"
+    ], 
+    "field_name": "Sample Carrier", 
+    "field_order": 3
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Sample ID", 
+    "field_order": 4, 
+    "script": "auto_assign_ID.py"
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Sample Name", 
+    "field_order": 5
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Software Version", 
+    "field_order": 6
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Firmware Version", 
+    "field_order": 7
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mg", 
+      "ug"
+    ], 
+    "standard_unit": "mg", 
+    "field_name": "Sample Mass", 
+    "field_order": 8
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mg", 
+      "ug"
+    ], 
+    "standard_unit": "mg", 
+    "field_name": "Carrier Mass", 
+    "field_order": 9
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Temperature Calibration", 
+    "field_order": 10
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Date of Last Temperature Calibration", 
+    "field_order": 11, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Sensitivity Calibration", 
+    "field_order": 12
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Date of Last Sensitivity Calibration", 
+    "field_order": 13, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Temperature Program", 
+    "field_order": 14
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "N2", 
+      "CO2", 
+      "He"
+    ], 
+    "field_name": "Gas 1", 
+    "field_order": 15
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "99.9%", 
+      "98%"
+    ], 
+    "field_name": "Gas 1 Grade", 
+    "field_order": 16
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mL/min", 
+      "L/min", 
+      "gal/min"
+    ], 
+    "standard_unit": "mL/min", 
+    "field_name": "Gas 1 Flow Rate", 
+    "field_order": 17
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "N2", 
+      "CO2", 
+      "He", 
+      "O2"
+    ], 
+    "field_name": "Gas 2", 
+    "field_order": 18
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "99.9%", 
+      "98%"
+    ], 
+    "field_name": "Gas 2 Grade", 
+    "field_order": 19
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mL/min", 
+      "L/min", 
+      "gal/min"
+    ], 
+    "standard_unit": "mL/min", 
+    "field_name": "Gas 2 Flow Rate", 
+    "field_order": 20
+  }
+]

@@ -1,0 +1,944 @@
+{
+  "data": [
+    {
+      "field_type": "text", 
+      "field_name": "Start Date", 
+      "order": 1, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Start Date", 
+      "order": 1, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Start Date", 
+      "order": 1, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Start Date", 
+      "order": 1, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Start Date", 
+      "order": 1, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Start Date", 
+      "order": 1, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Start Time", 
+      "order": 2, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Start Time", 
+      "order": 2, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Start Time", 
+      "order": 2, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Start Time", 
+      "order": 2, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Start Time", 
+      "order": 2, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Start Time", 
+      "order": 2, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "End Date", 
+      "order": 3, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Print Time (hh:mm)", 
+      "order": 3
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Print Time (hh:mm)", 
+      "order": 3
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "End Date", 
+      "order": 3, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "End Date", 
+      "order": 3, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Print Time (hh:mm)", 
+      "order": 3
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "End Time", 
+      "order": 4, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_name": "Material", 
+      "field_type": "drop_down", 
+      "drop_down_options": [
+        "ConAir ABS", 
+        "DeltaMaker PLA", 
+        "BlackMagic 3D Graphene - PLA", 
+        "ColorFabb Copper - PLA"
+      ], 
+      "order": 4, 
+      "drop_down_standard": "ConAir ABS"
+    }, 
+    {
+      "field_name": "Material", 
+      "field_type": "drop_down", 
+      "drop_down_options": [
+        "ConAir ABS", 
+        "DeltaMaker PLA", 
+        "BlackMagic 3D Graphene - PLA", 
+        "ColorFabb Copper - PLA"
+      ], 
+      "order": 4, 
+      "drop_down_standard": "ConAir ABS"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "End Time", 
+      "order": 4, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "End Time", 
+      "order": 4, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_name": "Material", 
+      "field_type": "drop_down", 
+      "drop_down_options": [
+        "ConAir ABS", 
+        "DeltaMaker PLA", 
+        "BlackMagic 3D Graphene - PLA", 
+        "ColorFabb Copper - PLA", 
+        "Green ABS", 
+        "Red TPE"
+      ], 
+      "order": 4, 
+      "drop_down_standard": "ConAir ABS"
+    }, 
+    {
+      "field_name": "Furnace", 
+      "field_type": "drop_down", 
+      "drop_down_options": [
+        "Silver", 
+        "Steel", 
+        "Platinum", 
+        "Silicon Carbide", 
+        "Rhodium", 
+        "Graphite", 
+        "Water Vapor", 
+        "High Speed", 
+        "Tungsten"
+      ], 
+      "order": 5, 
+      "drop_down_standard": "Steel"
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "Glass", 
+        "Kapton", 
+        "Glue Stick"
+      ], 
+      "field_name": "Bed", 
+      "order": 5
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "Glass", 
+        "Kapton", 
+        "Glue Stick"
+      ], 
+      "field_name": "Bed", 
+      "order": 5
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "1", 
+        "2", 
+        "3", 
+        "4"
+      ], 
+      "field_name": "Sample Location", 
+      "order": 5
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "Glass", 
+        "Kapton", 
+        "Glue Stick"
+      ], 
+      "field_name": "Bed", 
+      "order": 5
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "Standard Sensor", 
+        "Precision Sensor"
+      ], 
+      "field_name": "Sensor", 
+      "order": 6
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "standard", 
+        "high-lubricity"
+      ], 
+      "field_name": "Nozzle", 
+      "order": 6
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "standard", 
+        "high-lubricity"
+      ], 
+      "field_name": "Nozzle", 
+      "order": 6
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Sample ID", 
+      "order": 6, 
+      "script": "auto_assign_ID.py"
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "standard", 
+        "high-lubricity"
+      ], 
+      "field_name": "Nozzle", 
+      "order": 6
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "STA 449", 
+        "Standard"
+      ], 
+      "field_name": "Sample Carrier", 
+      "order": 7
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "0.3 mm", 
+        "0.4 mm", 
+        "0.5 mm"
+      ], 
+      "field_name": "Nozzle Diameter", 
+      "order": 7
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "0.3 mm", 
+        "0.4 mm", 
+        "0.5 mm"
+      ], 
+      "field_name": "Nozzle Diameter", 
+      "order": 7
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Sample Name", 
+      "order": 7
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "Platinum", 
+        "Copper"
+      ], 
+      "field_name": "Sample Carrier", 
+      "order": 7
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "0.3 mm", 
+        "0.4 mm", 
+        "0.5 mm"
+      ], 
+      "field_name": "Nozzle Diameter", 
+      "order": 7
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Sample ID", 
+      "order": 8, 
+      "script": "auto_assign_ID.py"
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "C"
+      ], 
+      "standard_unit": "C", 
+      "field_name": "Nozzle Temperature", 
+      "order": 8
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "C"
+      ], 
+      "standard_unit": "C", 
+      "field_name": "Nozzle Temperature", 
+      "order": 8
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Software Version", 
+      "order": 8
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Sample ID", 
+      "order": 8, 
+      "script": "auto_assign_ID.py"
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "C"
+      ], 
+      "standard_unit": "C", 
+      "field_name": "Nozzle Temperature", 
+      "order": 8
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Sample Name", 
+      "order": 9
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "C"
+      ], 
+      "standard_unit": "C", 
+      "field_name": "Bed Temperature", 
+      "order": 9
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "C"
+      ], 
+      "standard_unit": "C", 
+      "field_name": "Bed Temperature", 
+      "order": 9
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Firmware Version", 
+      "order": 9
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Sample Name", 
+      "order": 9
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "C"
+      ], 
+      "standard_unit": "C", 
+      "field_name": "Bed Temperature", 
+      "order": 9
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Software Version", 
+      "order": 10
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mm/sec"
+      ], 
+      "standard_unit": "mm/sec", 
+      "field_name": "Print Speed", 
+      "order": 10
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mm/sec"
+      ], 
+      "standard_unit": "mm/sec", 
+      "field_name": "Print Speed", 
+      "order": 10
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mm", 
+        "in"
+      ], 
+      "standard_unit": "mm", 
+      "field_name": "Sample Diameter", 
+      "order": 10
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Software Version", 
+      "order": 10
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mm/sec"
+      ], 
+      "standard_unit": "mm/sec", 
+      "field_name": "Print Speed", 
+      "order": 10
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Firmware Version", 
+      "order": 11
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Infill [%]", 
+      "order": 11
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Infill [%]", 
+      "order": 11
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mm", 
+        "in"
+      ], 
+      "standard_unit": "mm", 
+      "field_name": "Sample Thickness", 
+      "order": 11
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Firmware Version", 
+      "order": 11
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Infill [%]", 
+      "order": 11
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "Aluminum", 
+        "Sealed"
+      ], 
+      "field_name": "Sample Crucible", 
+      "order": 12
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mm"
+      ], 
+      "standard_unit": "mm", 
+      "field_name": "Shell Thickness", 
+      "order": 12
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mm"
+      ], 
+      "standard_unit": "mm", 
+      "field_name": "Shell Thickness", 
+      "order": 12
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Testing Program", 
+      "order": 12
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mm"
+      ], 
+      "standard_unit": "mm", 
+      "field_name": "Shell Thickness", 
+      "order": 12
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "Aluminum", 
+        "Sealed"
+      ], 
+      "field_name": "Reference Crucible", 
+      "order": 13
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "None", 
+        "Exterior", 
+        "Everywhere"
+      ], 
+      "field_name": "Support Type", 
+      "order": 13
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "None", 
+        "Exterior", 
+        "Everywhere"
+      ], 
+      "field_name": "Support Type", 
+      "order": 13
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "None", 
+        "Exterior", 
+        "Everywhere"
+      ], 
+      "field_name": "Support Type", 
+      "order": 13
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mg", 
+        "ug"
+      ], 
+      "standard_unit": "mg", 
+      "field_name": "Sample Mass", 
+      "order": 14
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "None", 
+        "Brim", 
+        "Raft", 
+        "Raft and Brim"
+      ], 
+      "field_name": "Adhesion Type", 
+      "order": 14
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "None", 
+        "Brim", 
+        "Raft", 
+        "Raft and Brim"
+      ], 
+      "field_name": "Adhesion Type", 
+      "order": 14
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mg", 
+        "ug"
+      ], 
+      "standard_unit": "mg", 
+      "field_name": "Sample Mass", 
+      "order": 14
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "None", 
+        "Brim", 
+        "Raft", 
+        "Raft and Brim"
+      ], 
+      "field_name": "Adhesion Type", 
+      "order": 14
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mg", 
+        "ug"
+      ], 
+      "standard_unit": "mg", 
+      "field_name": "Sample Crucible Mass", 
+      "order": 15
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mg", 
+        "ug"
+      ], 
+      "standard_unit": "mg", 
+      "field_name": "Reference Crucible Mass", 
+      "order": 16
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mg", 
+        "ug"
+      ], 
+      "standard_unit": "mg", 
+      "field_name": "Carrier Mass", 
+      "order": 16
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Temperature Calibration", 
+      "order": 17
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Temperature Calibration", 
+      "order": 17
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Date of Last Temperature Calibration", 
+      "order": 18, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Date of Last Temperature Calibration", 
+      "order": 18, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Sensitivity Calibration", 
+      "order": 19
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Sensitivity Calibration", 
+      "order": 19
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Date of Last Sensitivity Calibration", 
+      "order": 20, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Date of Last Sensitivity Calibration", 
+      "order": 20, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Tau-R Calibration", 
+      "order": 21
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Temperature Program", 
+      "order": 21
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Date of Last Tau-R Calibration", 
+      "order": 22, 
+      "script": "date_time_normalize.py"
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "N2", 
+        "CO2", 
+        "He"
+      ], 
+      "field_name": "Gas 1", 
+      "order": 22
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "N2", 
+        "CO2", 
+        "He"
+      ], 
+      "field_name": "Protective Gas", 
+      "order": 23
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "99.9%", 
+        "98%"
+      ], 
+      "field_name": "Gas 1 Grade", 
+      "order": 23
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "99.9%", 
+        "98%"
+      ], 
+      "field_name": "Protective Gas Grade", 
+      "order": 24
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mL/min", 
+        "L/min", 
+        "gal/min"
+      ], 
+      "standard_unit": "mL/min", 
+      "field_name": "Gas 1 Flow Rate", 
+      "order": 24
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mL/min", 
+        "L/min", 
+        "gal/min"
+      ], 
+      "standard_unit": "mL/min", 
+      "field_name": "Procetive Gas Flow Rate", 
+      "order": 25
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "N2", 
+        "CO2", 
+        "He", 
+        "O2"
+      ], 
+      "field_name": "Gas 2", 
+      "order": 25
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "N2", 
+        "CO2", 
+        "He", 
+        "O2"
+      ], 
+      "field_name": "Purge Gas 1", 
+      "order": 26
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "99.9%", 
+        "98%"
+      ], 
+      "field_name": "Gas 2 Grade", 
+      "order": 26
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "99.9%", 
+        "98%"
+      ], 
+      "field_name": "Purge Gas 1 Grade", 
+      "order": 27
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mL/min", 
+        "L/min", 
+        "gal/min"
+      ], 
+      "standard_unit": "mL/min", 
+      "field_name": "Gas 2 Flow Rate", 
+      "order": 27
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mL/min", 
+        "L/min", 
+        "gal/min"
+      ], 
+      "standard_unit": "mL/min", 
+      "field_name": "Purge Gas 1 Flow Rate", 
+      "order": 28
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "N2", 
+        "CO2", 
+        "He", 
+        "O2"
+      ], 
+      "field_name": "Purge Gas 2", 
+      "order": 29
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "99.9%", 
+        "98%"
+      ], 
+      "field_name": "Purge Gas 2 Grade", 
+      "order": 30
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "mL/min", 
+        "L/min", 
+        "gal/min"
+      ], 
+      "standard_unit": "mL/min", 
+      "field_name": "Purge Gas 2 Flow Rate", 
+      "order": 31
+    }, 
+    {
+      "field_type": "radio", 
+      "radio_options": [
+        "li-N2", 
+        "Air", 
+        "H2O"
+      ], 
+      "field_name": "Cooling System", 
+      "order": 32
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "K/min"
+      ], 
+      "standard_unit": "K/min", 
+      "field_name": "Preheat Rate", 
+      "order": 33
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "K/min"
+      ], 
+      "standard_unit": "K/min", 
+      "field_name": "Precool Rate", 
+      "order": 34
+    }, 
+    {
+      "field_type": "numeric", 
+      "script": "convert_units.py", 
+      "available_units": [
+        "K", 
+        "C", 
+        "F"
+      ], 
+      "standard_unit": "C", 
+      "field_name": "Insertion Temperature", 
+      "order": 35
+    }, 
+    {
+      "field_type": "text", 
+      "field_name": "Temperatuere Program", 
+      "order": 36
+    }, 
+    {
+      "field_name": "Sample Drop Down", 
+      "field_type": "drop_down", 
+      "drop_down_options": [
+        "Apples", 
+        "Oranges", 
+        "Pears"
+      ], 
+      "order": 37, 
+      "drop_down_standard": "Pears"
+    }
+  ]
+}

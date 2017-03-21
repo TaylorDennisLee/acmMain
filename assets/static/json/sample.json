@@ -1,0 +1,73 @@
+[
+  {
+    "field_type": "text",
+    "field_name": "Start Date",
+    "field_order": 1,
+    "field_value": ""
+  },
+  {
+    "field_type": "text",
+    "field_name": "Start Time",
+    "field_order": 2,
+    "field_value": ""
+  },
+  {
+    "field_type": "text",
+    "field_name": "End Date",
+    "field_order": 3,
+    "field_value": ""
+  },
+  {
+    "field_type": "text",
+    "field_name": "End Time",
+    "field_order": 4,
+    "field_value": ""
+  },
+  {
+    "field_type": "numeric",
+    "field_name": "Procetive Gas Flow Rate",
+    "field_order": 5,
+    "available_units": [
+      "mL/min",
+      "L/min",
+      "gal/min"
+    ],
+    "standard_unit": "mL/min",
+    "field_value":"",
+    "field_unit":""
+  },
+  {
+    "field_type": "radio",
+    "radio_options": [
+      "Standard Sensor",
+      "Precision Sensor"
+    ],
+    "field_name": "Sensor",
+    "field_order": 6,
+    "field_value":""
+  },
+  {
+    "field_name": "Furnace",
+    "field_type": "drop_down",
+    "drop_down_options": [
+      "Silver",
+      "Steel",
+      "Platinum",
+      "Silicon Carbide",
+      "Rhodium",
+      "Graphite",
+      "Water Vapor",
+      "High Speed",
+      "Tungsten"
+    ],
+    "field_order": 7,
+    "drop_down_standard": "Steel"
+  },
+  {
+    "field_type": "datetime",
+    "field_name": "Sample Date",
+    "field_order": 8,
+    "field_value": ""
+  }
+
+]

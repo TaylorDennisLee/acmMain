@@ -1,0 +1,64 @@
+@font-face { font-family: DIGITEK; src: url('../fonts/DIGITEK.TTF'); } 
+@font-face { font-family: KARNIBLA; src: url('../fonts/KARNIBLA.ttf'); }
+@font-face { font-family: KARNIVOB; src: url('../fonts/KARNIVOB.ttf'); }
+@font-face { font-family: KARNIVOD; src: url('../fonts/KARNIVOD.ttf'); }
+@font-face { font-family: KARNIVOL; src: url('../fonts/KARNIVOL.ttf'); }
+@font-face { font-family: KARNIVOR; src: url('../fonts/KARNIVOR.ttf'); }
+@font-face { font-family: KARNIVOT; src: url('../fonts/KARNIVOT.ttf'); } 
+@font-face { font-family: ZYPHYTE; src: url('../fonts/Zyphyte.ttf');}  
+@font-face {
+  font-family: 'icomoon';
+  src:url('static/fonts/icomoon.eot?83x4sx');
+  src:url('static/fonts/icomoon.eot?83x4sx#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?83x4sx') format('truetype'),
+    url('../fonts/icomoon.woff?83x4sx') format('woff'),
+    url('static/fonts/icomoon.svg?83x4sx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+font-family: KARNIVOD;
+text-align: center;
+  text-align: center;
+/*font-family: KARNIVOT;
+*/font-size: 70px;
+color: white;
+text-shadow: 0 1px 0 #ccc,
+       0 2px 0 #c9c9c9,
+       0 3px 0 #bbb,
+       0 4px 0 #b9b9b9,
+       0 5px 0 #aaa,
+       0 6px 1px rgba(0,0,0,.1),
+       0 0 5px rgba(0,0,0,.1),
+       0 1px 3px rgba(0,0,0,.3),
+       0 3px 5px rgba(0,0,0,.2),
+       0 5px 10px rgba(0,0,0,.25),
+       0 10px 10px rgba(0,0,0,.2),
+       0 20px 20px rgba(0,0,0,.15);
+       margin-left: auto; margin-right: auto;
+}
+
+a {
+  font-family: ZYPHYTE;
+
+}
+
+.icon-uwcrest_web_sm:before {
+  content: "\e900";
+}
+

@@ -1,0 +1,120 @@
+[
+  {
+    "field_type": "datetime", 
+    "field_name": "Start Date/Time", 
+    "order": 1, 
+    "script": "date_time_normalize.py"
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Print Time (hh:mm)", 
+    "order": 2
+  }, 
+  {
+    "field_type": "drop_down", 
+    "drop_down_options": [
+      "ConAir ABS", 
+      "DeltaMaker PLA", 
+      "BlackMagic 3D Graphene - PLA", 
+      "ColorFabb Copper - PLA"
+    ], 
+    "field_name": "Material", 
+    "order": 3, 
+    "drop_down_standard": "ConAir ABS"
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "Glass", 
+      "Kapton", 
+      "Glue Stick"
+    ], 
+    "field_name": "Bed", 
+    "order": 4
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "standard", 
+      "high-lubricity"
+    ], 
+    "field_name": "Nozzle", 
+    "order": 5
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "0.3 mm", 
+      "0.4 mm", 
+      "0.5 mm"
+    ], 
+    "field_name": "Nozzle Diameter", 
+    "order": 6
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "C"
+    ], 
+    "standard_unit": "C", 
+    "field_name": "Nozzle Temperature", 
+    "order": 7
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "C"
+    ], 
+    "standard_unit": "C", 
+    "field_name": "Bed Temperature", 
+    "order": 8
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mm/sec"
+    ], 
+    "standard_unit": "mm/sec", 
+    "field_name": "Print Speed", 
+    "order": 9
+  }, 
+  {
+    "field_type": "text", 
+    "field_name": "Infill [%]", 
+    "order": 10
+  }, 
+  {
+    "field_type": "numeric", 
+    "script": "convert_units.py", 
+    "available_units": [
+      "mm"
+    ], 
+    "standard_unit": "mm", 
+    "field_name": "Shell Thickness", 
+    "order": 11
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "None", 
+      "Exterior", 
+      "Everywhere"
+    ], 
+    "field_name": "Support Type", 
+    "order": 12
+  }, 
+  {
+    "field_type": "radio", 
+    "radio_options": [
+      "None", 
+      "Brim", 
+      "Raft", 
+      "Raft and Brim"
+    ], 
+    "field_name": "Adhesion Type", 
+    "order": 13
+  }
+]

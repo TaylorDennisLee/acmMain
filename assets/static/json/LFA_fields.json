@@ -1,0 +1,62 @@
+{
+"Start Date":{
+  "field_type":"text",
+  "order":1,
+  "script":"date_time_normalize.py"
+  },
+"Start Time":{
+  "field_type":"text",
+  "order":2,
+  "script":"date_time_normalize.py"
+  },
+"End Date":{
+  "field_type":"text",
+  "order":3,
+  "script":"date_time_normalize.py"
+  },
+"End Time":{
+  "field_type":"text",
+  "order":4,
+  "script":"date_time_normalize.py"
+  },
+"Sample Location":{
+  "field_type":"radio",
+  "radio_options":["1", "2", "3", "4"],
+  "order":5
+  },
+"Sample ID":{
+  "field_type":"text",
+  "script":"auto_assign_ID.py",
+  "order":6
+  },
+"Sample Name":{
+  "field_type":"text",
+  "order":7
+  },
+"Software Version":{
+  "field_type":"text",
+  "order":8
+  },
+"Firmware Version":{
+  "field_type":"text",
+  "order":9
+  },
+"Sample Diameter":{
+  "field_type":"numeric",
+  "available_units":["mm", "in"],
+  "standard_unit":"mm",
+  "script":"convert_units.py",
+  "order":10
+  },
+"Sample Thickness":{
+  "field_type":"numeric",
+  "available_units":["mm", "in"],
+  "standard_unit":"mm",
+  "script":"convert_units.py",
+  "order":11
+  },
+"Testing Program":{
+  "field_type":"text",
+  "order":12
+  }
+}
